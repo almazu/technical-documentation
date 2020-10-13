@@ -1,1 +1,46 @@
 /* use at least on media query */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    display: block;
+    height: 800px;
+}
+
+#container {
+    padding: 20px;
+}
+
+header {
+    height: 50px;
+}
+
+header>h1 {
+    text-align: center;
+}
+
+#navbar {
+    width: 100%;
+    background-color: gainsboro;
+}
+
+ul>li {
+    list-style-type: none;
+}
+
+#navbar>ul>li {
+    height: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+}
