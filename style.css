@@ -19,12 +19,60 @@ aside {
     border-bottom: 2px gray solid;
 }
 
-.citation {
-    font-size: 10px;
+#navbar {
+    width: 100%;
+}
+
+#navbar>ul>li {
+    padding: 10px;
+    border-top: 1px solid gray;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    height: 50px;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+#container {
+    padding: 20px;
+    float: right;
+    width: 980px;
+    line-height: 30px;
+    margin-right: 40px;
 }
 
 .main-section {
     margin-bottom: 50px;
+}
+
+.main-section ul {
+    margin-left: 40px;
+}
+
+.main-section p {
+    margin-top: 15px;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+    font-size: 18px;
 }
 
 #intro-img {
@@ -40,71 +88,8 @@ blockquote {
     padding: 30px;
 }
 
-#container {
-    padding: 20px;
-    float: right;
-    width: 980px;
-    line-height: 30px;
-    margin-right: 40px;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: black;
-}
-
-header {
-    height: 50px;
-}
-
-h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
-    margin-top: 10px;
-    text-align: center;
-}
-
-h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-h3 {
-    font-size: 18px;
-}
-
-#front-end img {
-    margin-left: 260px;
-    width: 300px;
-    height: 320px;
-}
-
-#back-end img {
-    margin-left: 240px;
-    width: 460px;
-    height: 280px;
-}
-
-#back-end textarea {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#full-stack img {
-    width: 600px;
-    height: 300px;
-    margin-left: 180px;
-}
-
-.main-section ul {
-    margin-left: 40px;
-}
-
-.main-section p {
-    margin-top: 15px;
-}
-
-#navbar {
-    width: 100%;
+.citation {
+    font-size: 10px;
 }
 
 code {
@@ -112,10 +97,25 @@ code {
     margin-left: 20px;
 }
 
-#navbar>ul>li {
-    padding: 10px;
-    border-top: 1px solid gray;
-    text-align: center;
-    text-decoration: none;
-    list-style-type: none;
+#Front-end img {
+    margin-left: 260px;
+    width: 300px;
+    height: 320px;
+}
+
+#Back-end img {
+    margin-left: 240px;
+    width: 460px;
+    height: 280px;
+}
+
+#Back-end textarea {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Full-stack img {
+    width: 600px;
+    height: 300px;
+    margin-left: 180px;
 }
